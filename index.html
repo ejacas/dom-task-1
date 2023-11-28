@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom task 1</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    .name {
+        border: 0;
+        font-size: 50px;
+        background: 0;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    </style>
+</head>
+<body>
+
+        <button class="name">Evaldas</button> 
+       
+    
+
+    <script>
+        var button = document.querySelector("button")
+
+
+        button.addEventListener("click", function(){
+            button.style.color = "red"
+            button.style.fontSize = "100px"
+            button.style.width = "100%"
+            button.style.position = "absolute"
+            button.style.top = "50%"
+
+        })
+    </script>
+</body>
+</html>
